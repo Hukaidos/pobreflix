@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #e50914;
+    padding: 20px;
+    text-align: center;
+}
+
+header input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.filme {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px; /* Definindo largura padrão */
+    height: 350px; /* Definindo altura padrão */
+    overflow: hidden; /* Para evitar overflow de texto */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.filme:hover {
+    transform: scale(1.05);
+}
+
+img {
+    border-radius: 10px;
+    width: 100%; /* Ajustando a largura da imagem */
+    height: auto; /* Manter a proporção da imagem */
+}
+
+.detalhes {
+    background-color: #1c1c1c;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+/* Estilo para a página de detalhes */
+.detalhes {
+    background-color: #1c1c1c;
+    padding: 20px;
+    margin: 20px auto; /* Centraliza a div */
+    border-radius: 10px;
+    max-width: 600px; /* Largura máxima da página de detalhes */
+    position: relative; /* Para controle de layout */
+    height: auto; /* Altura automática para se ajustar ao conteúdo */
+    overflow: hidden; /* Para evitar overflow de conteúdo */
+}
